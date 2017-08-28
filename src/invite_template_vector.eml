@@ -1,0 +1,139 @@
+Date: %(date)s
+From: %(from)s
+To: %(to)s
+Message-ID: %(messageid)s
+Subject: %(subject_header_value)s
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ"
+
+--7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: inline
+
+Hi,
+
+To protect your financial information %(sender_display_name_forhtml)from %(bracketed_room_name_forhtml)has invited you to send/receive wiring instructions for your upcoming transaction through WireSafe.
+WireSafe is an invitation only encrypted messaging platform for securely sending and receiving wiring instructions.
+Click here to receive/send your wiring instructions
+
+https://riot.im/app/#/room/%(room_id)s?email=%(to_forurl)s&signurl=https%%3A%%2F%%2Fvector.im%%2F_matrix%%2Fidentity%%2Fapi%%2Fv1%%2Fsign-ed25519%%3Ftoken%%3D%(token)s%%26private_key%%3D%(ephemeral_private_key)s&room_name=%(room_name_forurl)s&room_avatar_url=%(room_avatar_url_forurl)s&inviter_name=%(sender_display_name_forurl)s&guest_access_token=%(guest_access_token_forurl)s&guest_user_id=%(guest_user_id_forurl)s
+
+Please note that WireSafe requires Chrome, Firefox or Safari on the web or Apple iOS or Android on mobile
+About WireSafe:
+
+WireSafe guarantees the authenticity of wiring instructions exchanged through 4 layers of security
+
+PRIVATE - Information is sent across private network, eliminating the opportunity for interception
+
+ENCRYPTED - Information is encrypted, eliminating the opportunity for tampering.
+
+AUTHENTICATED - Wiresafe dual authenticates the Sender and Receiver, eliminating impersonation
+
+VALIDATED  -Bank routing numbers are validated to ensure transmission to the proper institution.
+
+
+For more details visit www.WireSafe.com
+
+
+--7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ
+Content-Type: multipart/related;
+	boundary="M3yzHl5YZehm9v4bAM8sKEdcOoVnRnKR";
+	type="text/html"
+
+--M3yzHl5YZehm9v4bAM8sKEdcOoVnRnKR
+Content-Type: text/html; charset=UTF-8
+Content-Disposition: inline
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <style type="text/css">
+body {
+    margin: 0px;
+}
+
+pre, code {
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+#page {
+    font-family: 'Open Sans', Helvetica, Arial, Sans-Serif;
+    font-color: #454545;
+    font-size: 12pt;
+    width: 100%%;
+    padding: 20px;
+}
+
+#inner {
+    width: 640px;
+}
+
+.header {
+    width: 100%%;
+    height: 87px;
+    color: #454545;
+    border-bottom: 4px solid #e5e5e5;
+}
+
+.logo {
+    text-align: right;
+    margin-left: 20px;
+}
+
+.header {
+    border-bottom: 4px solid #e4f7ed ! important;
+}
+
+.notif_link a, .footer a {
+    color: #C0C0C0 ! important;
+}
+        </style>
+    </head>
+    <body>
+        <table id="page">
+            <tr>
+                <td> </td>
+                <td id="inner">
+                    <table class="header">
+                        <tr>
+                            <td>
+                            </td>
+                            <td class="logo">
+                                    <img src="res/image/logo.png" width="64" height="64" alt="WireSafe"/>
+                            </td>
+                        </tr>
+                    </table>
+
+<p>Hi,</p>
+
+<p>To protect your financial information %(sender_display_name_forhtml)from %(bracketed_room_name_forhtml)has invited you to send/receive wiring instructions for your upcoming transaction through WireSafe.</p>
+<p>WireSafe is an invitation only encrypted messaging platform for securely sending and receiving wiring instructions.</p>
+<p>
+    <a
+    href="https://riot.im/app/#/room/%(room_id)s?email=%(to_forurl)s&signurl=https%%3A%%2F%%2Fvector.im%%2F_matrix%%2Fidentity%%2Fapi%%2Fv1%%2Fsign-ed25519%%3Ftoken%%3D%(token)s%%26private_key%%3D%(ephemeral_private_key)s&room_name=%(room_name_forurl)s&room_avatar_url=%(room_avatar_url_forurl)s&inviter_name=%(sender_display_name_forurl)s&guest_access_token=%(guest_access_token_forurl)s&guest_user_id=%(guest_user_id_forurl)s">Click here</a>
+		to receive/send your wiring instructions
+</p>
+<p>Please note that WireSafe requires <a href="https://www.google.com/chrome">Chrome</a>, <a href="https://www.getfirefox.com">Firefox</a> or <a href="https://www.apple.com/safari">Safari</a> on the web or Apple iOS or Android on mobile</p>
+<p>About WireSafe:</p>
+
+<p>WireSafe guarantees the authenticity of wiring instructions exchanged through 4 layers of security</p>
+
+<p>PRIVATE - Information is sent across private network, eliminating the opportunity for interception</p>
+
+<p>ENCRYPTED - Information is encrypted, eliminating the opportunity for tampering.</p>
+
+<p>VALIDATED  -Bank routing numbers are validated to ensure transmission to the proper institution.</p>
+
+<p>For more details visit www.WireSafe.com</p>
+
+                </td>
+                <td> </td>
+            </tr>
+        </table>
+    </body>
+</html>
+--M3yzHl5YZehm9v4bAM8sKEdcOoVnRnKR--
+
+--7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ--
